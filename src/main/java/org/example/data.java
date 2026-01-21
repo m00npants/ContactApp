@@ -1,4 +1,9 @@
 package org.example;
 
-public class data {
+import java.util.List;
+
+public interface ContactDAO {
+    List<Contact> findAll() throws Exception;
+    void save(Contact contact) throws Exception;
+    Contact findByName(String name) throws Exception;
 }
