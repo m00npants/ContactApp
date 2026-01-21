@@ -1,5 +1,6 @@
-package org.example;
+package org.example.data;
 
+import org.example.model.Contact;
 import java.util.List;
 
 public interface ContactDAO {
